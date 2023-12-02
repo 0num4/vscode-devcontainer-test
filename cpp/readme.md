@@ -1,0 +1,1 @@
+mahjongsoul.protoのCustomizedContestManagerApiはadmin api
