@@ -3,6 +3,16 @@
 This is a test repository for VSCode Dev Container.
 https://blog.kinto-technologies.com/posts/2022-12-10-VSCodeDevContainer/
 
+## featuresについて
+
+Rebuild Containerしないとfeaturesは入らない。Reopenだけでは入らない。
+```
+	"features": {
+		"ghcr.io/devcontainers/features/ruby": {}
+	}
+```
+
+
 # memo
 
 reopen container を選ぶと.devcontainer に Dockerfile と devcontainer.json ができる。
