@@ -8,3 +8,7 @@ https://blog.kinto-technologies.com/posts/2022-12-10-VSCodeDevContainer/
 reopen container を選ぶと.devcontainer に Dockerfile と devcontainer.json ができる。
 時間はかかるが勝手にdevcontainerが立ち上がる。
 ctrl+jとかすると勝手にコンテナ内部に入ってcondaもactivateされる。
+
+# coderabbitについて
+
+coderabbitAIとoss版のcode rabbitがある
