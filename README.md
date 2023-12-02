@@ -12,6 +12,19 @@ Rebuild Containerしないとfeaturesは入らない。Reopenだけでは入ら�
 	}
 ```
 
+	    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+を追加するとdockerコマンドがインストールされる。
+https://github.com/devcontainers/features/tree/main/src/docker-outside-of-docker
+https://qiita.com/t_katsumura/items/d5be6afadd6ec6545a9d
+別にdindでもいい気がするけどね
+
+devcontainer上でdocker psすると一番外側のdocker psになっており、自分自身(devcontainer)が見えたのでdoodになっている。
+```
+vscode ➜ /workspaces/vscode-devcontainer-test $ docker ps
+CONTAINER ID   IMAGE                                                                                           COMMAND                  CREATED         STATUS         PORTS     NAMES
+3d8786ddc6ba   vsc-vscode-devcontainer-test-bd0ab0b712e5c3240d4add4fdc1b4eaa0e94d8228bb3d99bd0c49ec87c2a22c5   "/bin/sh -c 'echo Co…"   7 minutes ago   Up 7 minutes             wizardly_mcclintock
+```
+
 
 # memo
 
