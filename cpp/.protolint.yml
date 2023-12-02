@@ -1,0 +1,10 @@
+---
+# Lint directives.
+lint:
+  # Linter files to ignore.
+  ignores:
+    - id: MAX_LINE_LENGTH
+    - id: MAX_LINE_LENGTH
+      # files:
+      #   # NOTE: UNIX paths will be properly accepted by both UNIX and Windows.
+      #   - _example/proto/simple.proto
