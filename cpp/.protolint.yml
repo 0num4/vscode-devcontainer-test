@@ -7,6 +7,9 @@ lint:
   #   - id: REPEATED_FIELD_NAMES_PLURALIZED
   #   - id: RPC_NAMES_UPPER_CAMEL_CASE
   rules:
+    add:
+      - ORDER
+      - IMPORTS_SORTED
     remove:
       - RPC_NAMES_UPPER_CAMEL_CASE
       - MAX_LINE_LENGTH
