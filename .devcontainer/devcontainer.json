@@ -24,12 +24,13 @@
 				"ms-vscode.cpptools-themes"
 			]
 		}
-	}
+	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "python --version",
+	// 	"postCreateCommand": "bash /workspaces/kanachan/.devcontainer/post-create.sh"
+	"postCreateCommand": "bash ./post-create.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
