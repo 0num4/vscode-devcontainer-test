@@ -19,6 +19,7 @@
 			"extensions": [
 				"ms-vscode.cpptools-extension-pack",
 				"ms-vscode.cpptools",
+				"formulahendry.code-runner",
 				"ms-vscode.makefile-tools",
 				"Shopify.ruby-lsp",
 				"ms-vscode.cpptools-themes"

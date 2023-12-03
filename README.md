@@ -50,3 +50,6 @@ github-actions[bot]でcoderabbitを呼び出してる
 
 https://github.com/keshav-infracloud/coderabbit-test/pull/8
 この辺の設定とか参考になりそう
+
+## vscodeのcpp設定
+https://qiita.com/yut-nagase/items/ced10f952b74f115c733
