@@ -1,3 +1,4 @@
+# https://github.com/microsoft/vscode-dev-containers/blob/main/containers/python-3-anaconda/.devcontainer/base.Dockerfile
 FROM mcr.microsoft.com/devcontainers/anaconda:0-3
 
 # Copy environment.yml (if found) to a temp location so we update the environment. Also
@@ -9,6 +10,9 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bi
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
+
+# poetry install
+
 
 RUN apt-get update
 RUN apt-get install -y gdb g++ protobuf-compiler cmake

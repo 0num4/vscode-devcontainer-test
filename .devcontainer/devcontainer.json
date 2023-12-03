@@ -30,11 +30,12 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// 	"postCreateCommand": "bash /workspaces/kanachan/.devcontainer/post-create.sh"
-	"postCreateCommand": "bash ./post-create.sh"
+	"postCreateCommand": "chmod +x .devcontainer/post-create.sh && .devcontainer/post-create.sh",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"remoteUser": "root",
+	"runArgs": ["--gpus", "all"]
 }
