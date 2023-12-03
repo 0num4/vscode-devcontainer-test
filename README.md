@@ -3,6 +3,9 @@
 This is a test repository for VSCode Dev Container.
 https://blog.kinto-technologies.com/posts/2022-12-10-VSCodeDevContainer/
 
+今年の5月に大分変わってそう
+https://zenn.dev/newgyu/scraps/4c24bf3df804bd
+
 ## featuresについて
 
 Rebuild Containerしないとfeaturesは入らない。Reopenだけでは入らない。
@@ -41,3 +44,9 @@ coderabbitAIとoss版のcode rabbitがある
 管理者は普通にprotectionをしてもpush出来てしまうらしい
 https://zenn.dev/snowcait/articles/42bb6b56c806da
 
+# ai-pr-reviewer
+https://github.com/coderabbitai/ai-pr-reviewer/pull/494
+github-actions[bot]でcoderabbitを呼び出してる
+
+https://github.com/keshav-infracloud/coderabbit-test/pull/8
+この辺の設定とか参考になりそう

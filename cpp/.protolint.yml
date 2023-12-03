@@ -1,0 +1,16 @@
+---
+# Lint directives.
+lint:
+  # Linter files to ignore.
+  # ignores:
+  #   - id: MAX_LINE_LENGTH
+  #   - id: REPEATED_FIELD_NAMES_PLURALIZED
+  #   - id: RPC_NAMES_UPPER_CAMEL_CASE
+  rules:
+    add:
+      - ORDER
+      - IMPORTS_SORTED
+    remove:
+      - RPC_NAMES_UPPER_CAMEL_CASE
+      - MAX_LINE_LENGTH
+      - REPEATED_FIELD_NAMES_PLURALIZED
