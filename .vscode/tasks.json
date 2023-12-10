@@ -28,6 +28,10 @@
             "type": "shell",
             "command": "g++",
             "args": [
+                "-I",
+                "/usr/include",
+                "-I",
+                "/tmp/pro/protobuf/src",
                 "-g",
                 "${file}",
                 "-o",

@@ -3,12 +3,14 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/tmp/pro/protobuf/src"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c17",
-            "cppStandard": "gnu++14", // cpp20が最新
+            "cppStandard": "gnu++14",
             "intelliSenseMode": "linux-gcc-x64"
         }
     ],

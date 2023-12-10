@@ -53,3 +53,41 @@ https://github.com/keshav-infracloud/coderabbit-test/pull/8
 
 ## vscodeのcpp設定
 https://qiita.com/yut-nagase/items/ced10f952b74f115c733
+
+## protobufの設定など
+
+https://vscode.dev/github/0num4/kanachan/blob/majsoul-proto/mjai.app/Dockerfile#L33
+
+aptからインストールするprotobuf-compilerとlibprotobuf-devが単純に壊れていて下記のようなエラーが出る
+```
+In file included from /workspaces/vscode-devcontainer-test/cpp/main.cpp:2:
+/workspaces/vscode-devcontainer-test/cpp/mahjongsoul.pb.h:26:10: fatal error: google/protobuf/generated_message_bases.h: No such file or directory
+   26 | #include <google/protobuf/generated_message_bases.h>
+```
+
+実際`dpkg -L libprotobuf-dev`などでインストールされるheaderファイルを見ても無い。終わっている。
+ということでソースからインストールするしかないのでインストールする。
+
+https://github.com/protocolbuffers/protobuf/tree/main/src
+
+### bazelのインストールする
+
+普通にcppでもインストール出きるっぽい
+https://github.com/protocolbuffers/protobuf/tree/main/src
+
+```
+sudo apt install apt-transport-https curl gnupg -y
+curl -fsSL https://bazel.build/bazel-release.pub.gpg | gpg --dearmor >bazel-archive-keyring.gpg
+sudo mv bazel-archive-keyring.gpg /usr/share/keyrings
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/bazel-archive-keyring.gpg] https://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
+```
+
+bazelはこけるがcmakeは動く
+```
+
+ cmake --build .
+
+ [100%] Building C object third_party/utf8_range/CMakeFiles/utf8_range.dir/range2-sse.c.o
+[100%] Linking C static library libutf8_range.a
+[100%] Built target utf8_range
+```
