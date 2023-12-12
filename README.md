@@ -53,3 +53,8 @@ https://github.com/keshav-infracloud/coderabbit-test/pull/8
 
 ## vscodeのcpp設定
 https://qiita.com/yut-nagase/items/ced10f952b74f115c733
+
+## codonについて
+codonでgpuを使うには、ソースからビルドする必要があるらしい。最悪。
+https://docs.exaloop.io/codon/advanced/build
+https://github.com/exaloop/codon/issues/193
