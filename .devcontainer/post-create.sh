@@ -26,6 +26,11 @@ sudo apt-get update
 sudo apt-get -y install cuda
 # Install CUDA END
 
+# install protobuf from source
+git clone https://github.com/protocolbuffers/protobuf.git
+cd protobuf
+git submodule update --init --recursive
+
 conda update -y python
 conda update -y -n base conda
 conda install -y numpy
