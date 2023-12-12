@@ -30,8 +30,10 @@ sudo apt-get -y install cuda
 git clone https://github.com/protocolbuffers/protobuf.git /tmp/protobuf
 cd /tmp/protobuf
 git submodule update --init --recursive
-cmake .
-cmake --build . --parallel 10
+cmake CMakeLists.txt
+make -j 15
+# cmake .
+# cmake --build . --parallel 15
 make install
 
 conda update -y python
@@ -39,15 +41,11 @@ conda update -y -n base conda
 conda install -y numpy
 conda install -y pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
-# nvccのパス
-export PATH=/usr/local/cuda/bin:$PATH
-
-# # install codon
-# /bin/bash -c "$(curl -fsSL https://exaloop.io/install.sh)"
-# export PATH=/root/.codon/bin:$PATH
-# codonをgpuで使うためにはソースからビルドする必要がある(readme参照)
-
 ## install rails
 # cd rails-with-rbs
 # gem install rails
 # gem install sqlite3
+
+# なぜかprotocがcondaに入っていて困っている
+# (base) root ➜ /workspaces/vscode-devcontainer-test/cpp (feat/rails) $ which protoc
+# /opt/conda/bin/protoc
