@@ -15,4 +15,4 @@ RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && /opt/conda/bi
 
 
 RUN apt-get update
-RUN apt-get install -y gdb g++ protobuf-compiler cmake git
+RUN apt-get install -y gdb g++ cmake git
