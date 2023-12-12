@@ -40,6 +40,6 @@ conda install -y numpy
 conda install -y pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
 ## install rails
-cd rails-with-rbs
-gem install rails
-gem install sqlite3
+# cd rails-with-rbs
+# gem install rails
+# gem install sqlite3
