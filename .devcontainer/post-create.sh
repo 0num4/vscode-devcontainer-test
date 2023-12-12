@@ -26,12 +26,20 @@ sudo apt-get update
 sudo apt-get -y install cuda
 # Install CUDA END
 
-# install protobuf from source
+# install protobuf from source(only work wsl)
 git clone https://github.com/protocolbuffers/protobuf.git
 cd protobuf
 git submodule update --init --recursive
+cmake .
+cmake --build . --parallel 10
+make install
 
 conda update -y python
 conda update -y -n base conda
 conda install -y numpy
 conda install -y pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+
+## install rails
+cd rails-with-rbs
+gem install rails
+gem install sqlite3
