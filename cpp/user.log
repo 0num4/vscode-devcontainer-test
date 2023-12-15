@@ -1,0 +1,252 @@
+In file included from main.cc:9:
+user.pb.h:36:1: error: ‘PROTOBUF_NAMESPACE_OPEN’ does not name a type
+   36 | PROTOBUF_NAMESPACE_OPEN
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+user.pb.h:40:1: error: ‘PROTOBUF_NAMESPACE_CLOSE’ does not name a type
+   40 | PROTOBUF_NAMESPACE_CLOSE
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+user.pb.h:46:16: error: ‘PROTOBUF_NAMESPACE_ID’ in namespace ‘::’ does not name a type
+   46 | extern const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_user_2eproto;
+      |                ^~~~~~~~~~~~~~~~~~~~~
+user.pb.h:52:1: error: ‘PROTOBUF_NAMESPACE_OPEN’ does not name a type
+   52 | PROTOBUF_NAMESPACE_OPEN
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+user.pb.h:54:1: error: ‘PROTOBUF_NAMESPACE_CLOSE’ does not name a type
+   54 | PROTOBUF_NAMESPACE_CLOSE
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+main.cc: In function ‘int main(int, const char**)’:
+main.cc:15:22: error: aggregate ‘userdb::User u1’ has incomplete type and cannot be defined
+   15 |         userdb::User u1;
+      |                      ^~
+In file included from user.pb.cc:4:
+user.pb.h:36:1: error: ‘PROTOBUF_NAMESPACE_OPEN’ does not name a type
+   36 | PROTOBUF_NAMESPACE_OPEN
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+user.pb.h:40:1: error: ‘PROTOBUF_NAMESPACE_CLOSE’ does not name a type
+   40 | PROTOBUF_NAMESPACE_CLOSE
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+user.pb.h:46:16: error: ‘PROTOBUF_NAMESPACE_ID’ in namespace ‘::’ does not name a type
+   46 | extern const ::PROTOBUF_NAMESPACE_ID::internal::DescriptorTable descriptor_table_user_2eproto;
+      |                ^~~~~~~~~~~~~~~~~~~~~
+user.pb.h:52:1: error: ‘PROTOBUF_NAMESPACE_OPEN’ does not name a type
+   52 | PROTOBUF_NAMESPACE_OPEN
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+user.pb.h:54:1: error: ‘PROTOBUF_NAMESPACE_CLOSE’ does not name a type
+   54 | PROTOBUF_NAMESPACE_CLOSE
+      | ^~~~~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:20:19: error: ‘PROTOBUF_NAMESPACE_ID’ is not a namespace-name
+   20 | namespace _pb = ::PROTOBUF_NAMESPACE_ID;
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:21:18: error: ‘_pb’ has not been declared
+   21 | namespace _pbi = _pb::internal;
+      |                  ^~~
+user.pb.cc:21:23: error: ‘internal’ is not a namespace-name
+   21 | namespace _pbi = _pb::internal;
+      |                       ^~~~~~~~
+user.pb.cc:24:30: error: expected constructor, destructor, or type conversion before ‘(’ token
+   24 | PROTOBUF_CONSTEXPR User::User(
+      |                              ^
+user.pb.cc:26:75: error: expected unqualified-id before ‘)’ token
+   26 |   : id_(&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{})
+      |                                                                           ^
+user.pb.cc:27:75: error: expected unqualified-id before ‘)’ token
+   27 |   , pw_(&::_pbi::fixed_address_empty_string, ::_pbi::ConstantInitialized{})
+      |                                                                           ^
+user.pb.cc:34:10: error: field ‘_instance’ has incomplete type ‘userdb::User’
+   34 |     User _instance;
+      |          ^~~~~~~~~
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc: In constructor ‘userdb::UserDefaultTypeInternal::UserDefaultTypeInternal()’:
+user.pb.cc:31:21: error: ‘::_pbi’ has not been declared
+   31 |       : _instance(::_pbi::ConstantInitialized{}) {}
+      |                     ^~~~
+user.pb.cc: At global scope:
+user.pb.cc:39:10: error: ‘_pb’ in namespace ‘::’ does not name a type; did you mean ‘pb’?
+   39 | static ::_pb::Metadata file_level_metadata_user_2eproto[1];
+      |          ^~~
+      |          pb
+user.pb.cc:40:20: error: ‘_pb’ in namespace ‘::’ does not name a type; did you mean ‘pb’?
+   40 | static constexpr ::_pb::EnumDescriptor const** file_level_enum_descriptors_user_2eproto = nullptr;
+      |                    ^~~
+      |                    pb
+user.pb.cc:41:20: error: ‘_pb’ in namespace ‘::’ does not name a type; did you mean ‘pb’?
+   41 | static constexpr ::_pb::ServiceDescriptor const** file_level_service_descriptors_user_2eproto = nullptr;
+      |                    ^~~
+      |                    pb
+user.pb.cc:43:16: error: ‘TableStruct_user_2eproto’ has not been declared
+   43 | const uint32_t TableStruct_user_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:43:52: error: expected initializer before ‘PROTOBUF_SECTION_VARIABLE’
+   43 | const uint32_t TableStruct_user_2eproto::offsets[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+      |                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:57:16: error: ‘_pbi’ in namespace ‘::’ does not name a type; did you mean ‘pb’?
+   57 | static const ::_pbi::MigrationSchema schemas[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) = {
+      |                ^~~~
+      |                pb
+user.pb.cc:61:16: error: ‘_pb’ in namespace ‘::’ does not name a type; did you mean ‘pb’?
+   61 | static const ::_pb::Message* const file_default_instances[] = {
+      |                ^~~
+      |                pb
+user.pb.cc:65:53: error: expected initializer before ‘PROTOBUF_SECTION_VARIABLE’
+   65 | const char descriptor_table_protodef_user_2eproto[] PROTOBUF_SECTION_VARIABLE(protodesc_cold) =
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:70:10: error: ‘_pbi’ in namespace ‘::’ does not name a type; did you mean ‘pb’?
+   70 | static ::_pbi::once_flag descriptor_table_user_2eproto_once;
+      |          ^~~~
+      |          pb
+user.pb.cc:71:9: error: ‘_pbi’ in namespace ‘::’ does not name a type; did you mean ‘pb’?
+   71 | const ::_pbi::DescriptorTable descriptor_table_user_2eproto = {
+      |         ^~~~
+      |         pb
+user.pb.cc:79:33: error: ‘_pbi’ in namespace ‘::’ does not name a type; did you mean ‘pb’?
+   79 | PROTOBUF_ATTRIBUTE_WEAK const ::_pbi::DescriptorTable* descriptor_table_user_2eproto_getter() {
+      |                                 ^~~~
+      |                                 pb
+user.pb.cc:84:44: error: ‘_pbi’ in namespace ‘::’ does not name a type; did you mean ‘pb’?
+   84 | PROTOBUF_ATTRIBUTE_INIT_PRIORITY2 static ::_pbi::AddDescriptorsRunner dynamic_init_dummy_user_2eproto(&descriptor_table_user_2eproto);
+      |                                            ^~~~
+      |                                            pb
+user.pb.cc:89:23: error: qualified name does not name a class before ‘{’ token
+   89 | class User::_Internal {
+      |                       ^
+user.pb.cc:97:11: error: expected constructor, destructor, or type conversion before ‘(’ token
+   97 | User::User(::PROTOBUF_NAMESPACE_ID::Arena* arena,
+      |           ^
+user.pb.cc:103:28: error: invalid use of incomplete type ‘class userdb::User’
+  103 | User::User(const User& from)
+      |                            ^
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:127:30: error: invalid use of incomplete type ‘class userdb::User’
+  127 | inline void User::SharedCtor() {
+      |                              ^
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:139:13: error: invalid use of incomplete type ‘class userdb::User’
+  139 | User::~User() {
+      |             ^
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:148:30: error: invalid use of incomplete type ‘class userdb::User’
+  148 | inline void User::SharedDtor() {
+      |                              ^
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:154:36: error: invalid use of incomplete type ‘class userdb::User’
+  154 | void User::SetCachedSize(int size) const {
+      |                                    ^~~~~
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:158:18: error: invalid use of incomplete type ‘class userdb::User’
+  158 | void User::Clear() {
+      |                  ^
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:171:53: error: ‘::_pbi’ has not been declared
+  171 | const char* User::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
+      |                                                     ^~~~
+user.pb.cc:171:71: error: expected ‘,’ or ‘...’ before ‘*’ token
+  171 | const char* User::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
+      |                                                                       ^
+user.pb.cc:171:76: error: invalid use of incomplete type ‘class userdb::User’
+  171 | const char* User::_InternalParse(const char* ptr, ::_pbi::ParseContext* ctx) {
+      |                                                                            ^
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:232:24: error: ‘::PROTOBUF_NAMESPACE_ID’ has not been declared
+  232 |     uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:232:70: error: expected ‘,’ or ‘...’ before ‘*’ token
+  232 |     uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      |                                                                      ^
+user.pb.cc:232:80: error: invalid use of incomplete type ‘class userdb::User’
+  232 |     uint8_t* target, ::PROTOBUF_NAMESPACE_ID::io::EpsCopyOutputStream* stream) const {
+      |                                                                                ^~~~~
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:271:29: error: invalid use of incomplete type ‘class userdb::User’
+  271 | size_t User::ByteSizeLong() const {
+      |                             ^~~~~
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:302:9: error: ‘PROTOBUF_NAMESPACE_ID’ in namespace ‘::’ does not name a type
+  302 | const ::PROTOBUF_NAMESPACE_ID::Message::ClassData User::_class_data_ = {
+      |         ^~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:306:9: error: ‘PROTOBUF_NAMESPACE_ID’ in namespace ‘::’ does not name a type
+  306 | const ::PROTOBUF_NAMESPACE_ID::Message::ClassData*User::GetClassData() const { return &_class_data_; }
+      |         ^~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:308:24: error: invalid use of incomplete type ‘class userdb::User’
+  308 | void User::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:308:24: error: ‘::PROTOBUF_NAMESPACE_ID’ has not been declared
+  308 | void User::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+      |                        ^~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:308:56: error: ‘to’ was not declared in this scope; did you mean ‘tm’?
+  308 | void User::MergeImpl(::PROTOBUF_NAMESPACE_ID::Message* to,
+      |                                                        ^~
+      |                                                        tm
+user.pb.cc:309:23: error: expected primary-expression before ‘const’
+  309 |                       const ::PROTOBUF_NAMESPACE_ID::Message& from) {
+      |                       ^~~~~
+user.pb.cc:315:38: error: invalid use of incomplete type ‘class userdb::User’
+  315 | void User::MergeFrom(const User& from) {
+      |                                      ^
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:333:37: error: invalid use of incomplete type ‘class userdb::User’
+  333 | void User::CopyFrom(const User& from) {
+      |                                     ^
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:340:28: error: invalid use of incomplete type ‘class userdb::User’
+  340 | bool User::IsInitialized() const {
+      |                            ^~~~~
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:344:36: error: invalid use of incomplete type ‘class userdb::User’
+  344 | void User::InternalSwap(User* other) {
+      |                                    ^
+In file included from user.pb.cc:4:
+user.pb.h:48:7: note: forward declaration of ‘class userdb::User’
+   48 | class User;
+      |       ^~~~
+user.pb.cc:361:3: error: ‘PROTOBUF_NAMESPACE_ID’ in namespace ‘::’ does not name a type
+  361 | ::PROTOBUF_NAMESPACE_ID::Metadata User::GetMetadata() const {
+      |   ^~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:369:1: error: ‘PROTOBUF_NAMESPACE_OPEN’ does not name a type
+  369 | PROTOBUF_NAMESPACE_OPEN
+      | ^~~~~~~~~~~~~~~~~~~~~~~
+user.pb.cc:374:1: error: ‘PROTOBUF_NAMESPACE_CLOSE’ does not name a type
+  374 | PROTOBUF_NAMESPACE_CLOSE
+      | ^~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,6 +1,7 @@
 #include <iostream>
-// #include "mahjongsoul.pb.h"
+#include "mahjongsoul.pb.h"
 #include <vector>
+
 
 int main() {
 //   Person person;
