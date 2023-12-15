@@ -1,0 +1,5297 @@
+{
+  "head": {
+    "uuid": "231215-613eb8b1-84e8-4726-98ac-a578055e6b9a",
+    "start_time": 1702642049,
+    "end_time": 1702642264,
+    "config": {
+      "category": 1,
+      "mode": {
+        "mode": 13,
+        "ai": true,
+        "detail_rule": {
+          "time_fixed": 5,
+          "time_add": 20,
+          "dora_count": 2,
+          "shiduan": 1,
+          "init_point": 35000,
+          "fandian": 40000,
+          "bianjietishi": true,
+          "ai_level": 1,
+          "have_zimosun": true,
+          "fanfu": 1,
+          "open_hand": 0
+        }
+      },
+      "meta": {
+        "room_id": 69839
+      }
+    },
+    "accounts": [
+      {
+        "account_id": 73425222,
+        "seat": 1,
+        "nickname": "電なのです",
+        "avatar_id": 403403,
+        "character": {
+          "charid": 200034,
+          "level": 4,
+          "exp": 10898,
+          "skin": 403403,
+          "is_upgraded": false,
+          "extra_emoji": [
+            990
+          ]
+        },
+        "title": 0,
+        "level": {
+          "id": 10303,
+          "score": 1335
+        },
+        "level3": {
+          "id": 20401,
+          "score": 1413
+        },
+        "avatar_frame": 305552,
+        "verified": 0,
+        "views": [
+          {
+            "slot": 0,
+            "item_id": 305019
+          },
+          {
+            "slot": 1,
+            "item_id": 305009
+          },
+          {
+            "slot": 2,
+            "item_id": 305021
+          },
+          {
+            "slot": 5,
+            "item_id": 305552
+          },
+          {
+            "slot": 6,
+            "item_id": 305046
+          },
+          {
+            "slot": 8,
+            "item_id": 307006
+          }
+        ]
+      }
+    ],
+    "result": {
+      "players": [
+        {
+          "seat": 1,
+          "total_point": 24700,
+          "part_point_1": 44700,
+          "part_point_2": 0,
+          "grading_score": 0,
+          "gold": 0
+        },
+        {
+          "seat": 0,
+          "total_point": -4200,
+          "part_point_1": 30800,
+          "part_point_2": 0,
+          "grading_score": 0,
+          "gold": 0
+        },
+        {
+          "seat": 2,
+          "total_point": -20500,
+          "part_point_1": 29500,
+          "part_point_2": 0,
+          "grading_score": 0,
+          "gold": 0
+        }
+      ]
+    }
+  },
+  "data": {
+    "name": ".lq.GameDetailRecords",
+    "data": {
+      "version": 210715,
+      "actions": [
+        {
+          "passed": 1128,
+          "type": 3,
+          "user_event": {
+            "seat": 1,
+            "type": 1
+          }
+        },
+        {
+          "passed": 2899,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 7
+          }
+        },
+        {
+          "passed": 2899,
+          "type": 4,
+          "game_event": 1
+        },
+        {
+          "passed": 7901,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordNewRound",
+            "data": {
+              "chang": 0,
+              "ju": 0,
+              "ben": 0,
+              "scores": [
+                35000,
+                35000,
+                35000
+              ],
+              "liqibang": 0,
+              "tiles0": [
+                "1p",
+                "2s",
+                "7p",
+                "9m",
+                "1z",
+                "8s",
+                "4z",
+                "0s",
+                "6z",
+                "9m",
+                "2s",
+                "1s",
+                "7p",
+                "3s"
+              ],
+              "tiles1": [
+                "3p",
+                "6z",
+                "5z",
+                "0p",
+                "3z",
+                "1s",
+                "5p",
+                "9s",
+                "4p",
+                "2z",
+                "2z",
+                "3s",
+                "3z"
+              ],
+              "tiles2": [
+                "2p",
+                "9s",
+                "8p",
+                "9m",
+                "9p",
+                "8p",
+                "1z",
+                "6s",
+                "1z",
+                "3p",
+                "1m",
+                "6z",
+                "6z"
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  },
+                  {
+                    "type": 11
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 8000
+              },
+              "paishan": "1p2s7p9m3p6z5z0p2p9s8p9m1z8s4z0s3z1s5p9s9p8p1z6s6z9m2s1s4p2z2z3s1z3p1m6z7p3z6z3s6p9s5s3s8s9p3z3z5p6s4p9m8s1p4s1p7z2p4s9p7s7s1z2z6p1p8p3p5z6s2s4s7p4z4z1s6p9p2p7s8s5z5p7z3s8p4s6p2s5z7s2z4z4p1m5s5s1m7p3p1s4p7z6s7z2p1m9s",
+              "left_tile_count": 54,
+              "doras": [
+                "3p"
+              ],
+              "opens": [
+                {
+                  "seat": 0
+                },
+                {
+                  "seat": 1
+                },
+                {
+                  "seat": 2
+                }
+              ],
+              "sha256": "2e1731db13a0a72758023c07ad5f6ebe3127ad3c201a8c5317e40d500e44b3ee"
+            }
+          }
+        },
+        {
+          "passed": 9902,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordBaBei",
+            "data": {
+              "seat": 0,
+              "moqie": false
+            }
+          }
+        },
+        {
+          "passed": 10403,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "9s",
+              "left_tile_count": 53,
+              "doras": [
+                "3p"
+              ],
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 10905,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "9s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 11406,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "6p",
+              "left_tile_count": 52,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 13551,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "9s",
+              "moqie": false,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 13552,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "9s",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 14053,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "9s",
+              "left_tile_count": 51,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 14556,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "9s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 15056,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "5s",
+              "left_tile_count": 50,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 15558,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "6z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 2,
+                  "operation_list": [
+                    {
+                      "type": 3,
+                      "combination": [
+                        "6z|6z"
+                      ]
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 16059,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "3s",
+              "left_tile_count": 49,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 16080,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 5
+          }
+        },
+        {
+          "passed": 18180,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "1s",
+              "moqie": false,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 18181,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "1s",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 18682,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "8s",
+              "left_tile_count": 48,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 19187,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "1m",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 19687,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "9p",
+              "left_tile_count": 47,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 20188,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "9p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 20689,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "3z",
+              "left_tile_count": 46,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 22913,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "5z",
+              "moqie": false,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 22915,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "5z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 23415,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "3z",
+              "left_tile_count": 45,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 23917,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "3z",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 1,
+                  "operation_list": [
+                    {
+                      "type": 3,
+                      "combination": [
+                        "3z|3z"
+                      ]
+                    },
+                    {
+                      "type": 5,
+                      "combination": [
+                        "3z|3z|3z"
+                      ]
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 25147,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 5
+          }
+        },
+        {
+          "passed": 26302,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 3,
+            "cpg": {
+              "type": 5,
+              "index": 0,
+              "timeuse": 1
+            }
+          }
+        },
+        {
+          "passed": 26304,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordChiPengGang",
+            "data": {
+              "seat": 1,
+              "type": 2,
+              "tiles": [
+                "3z",
+                "3z",
+                "3z",
+                "3z"
+              ],
+              "froms": [
+                1,
+                1,
+                1,
+                2
+              ],
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "tile_states": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        },
+        {
+          "passed": 26904,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "1m",
+              "left_tile_count": 44,
+              "doras": [
+                "3p"
+              ],
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 30413,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 1
+          }
+        },
+        {
+          "passed": 31731,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "6z",
+              "moqie": false,
+              "timeuse": 4,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 31731,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "6z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "doras": [
+                "3p",
+                "1m"
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 2,
+                  "operation_list": [
+                    {
+                      "type": 3,
+                      "combination": [
+                        "6z|6z"
+                      ]
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 32235,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordChiPengGang",
+            "data": {
+              "seat": 2,
+              "type": 1,
+              "tiles": [
+                "6z",
+                "6z",
+                "6z"
+              ],
+              "froms": [
+                2,
+                2,
+                1
+              ],
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1,
+                    "combination": [
+                      "6z"
+                    ]
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              },
+              "tile_states": [
+                0,
+                0
+              ]
+            }
+          }
+        },
+        {
+          "passed": 32738,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "9m",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 0,
+                  "operation_list": [
+                    {
+                      "type": 3,
+                      "combination": [
+                        "9m|9m"
+                      ]
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 33241,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "5p",
+              "left_tile_count": 43,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 33743,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "5p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 1,
+                  "operation_list": [
+                    {
+                      "type": 3,
+                      "combination": [
+                        "0p|5p"
+                      ]
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 36548,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 3,
+            "cpg": {
+              "cancel_operation": true,
+              "timeuse": 2
+            }
+          }
+        },
+        {
+          "passed": 36549,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "6s",
+              "left_tile_count": 42,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 39964,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "1m",
+              "moqie": false,
+              "timeuse": 3,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 39966,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "1m",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 40466,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "4p",
+              "left_tile_count": 41,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 40969,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "9p",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 41415,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 5
+          }
+        },
+        {
+          "passed": 41471,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "9m",
+              "left_tile_count": 40,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 41972,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "1p",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 42473,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "8s",
+              "left_tile_count": 39,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 44214,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "8s",
+              "moqie": true,
+              "timeuse": 1,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 44215,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "8s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 44716,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "1p",
+              "left_tile_count": 38,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 45217,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "1p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 45717,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "4s",
+              "left_tile_count": 37,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 46219,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "4s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 46718,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "1p",
+              "left_tile_count": 36,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 47131,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 2
+          }
+        },
+        {
+          "passed": 49483,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "6s",
+              "moqie": false,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 49485,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "6s",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 49986,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "7z",
+              "left_tile_count": 35,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 50489,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "7z",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 50990,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "2p",
+              "left_tile_count": 34,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 51492,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "2p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 51991,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "4s",
+              "left_tile_count": 33,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 54751,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "1p",
+              "moqie": false,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 54752,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "1p",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 55252,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "9p",
+              "left_tile_count": 32,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 55755,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "9p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 56256,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "7s",
+              "left_tile_count": 31,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 56759,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "1z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 2,
+                  "operation_list": [
+                    {
+                      "type": 3,
+                      "combination": [
+                        "1z|1z"
+                      ]
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 57261,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "7s",
+              "left_tile_count": 30,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 58732,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "7s",
+              "moqie": true,
+              "timeuse": 1,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 58733,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "7s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 59234,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "1z",
+              "left_tile_count": 29,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 59737,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "1z",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 60236,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "2z",
+              "left_tile_count": 28,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 60741,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "2z",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 1,
+                  "operation_list": [
+                    {
+                      "type": 3,
+                      "combination": [
+                        "2z|2z"
+                      ]
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 61532,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 5
+          }
+        },
+        {
+          "passed": 62666,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 3,
+            "cpg": {
+              "type": 3,
+              "index": 0,
+              "timeuse": 1
+            }
+          }
+        },
+        {
+          "passed": 62666,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordChiPengGang",
+            "data": {
+              "seat": 1,
+              "type": 1,
+              "tiles": [
+                "2z",
+                "2z",
+                "2z"
+              ],
+              "froms": [
+                1,
+                1,
+                0
+              ],
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1,
+                    "combination": [
+                      "2z"
+                    ]
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              },
+              "tile_states": [
+                0,
+                0
+              ]
+            }
+          }
+        },
+        {
+          "passed": 63932,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "4s",
+              "moqie": false,
+              "timeuse": 0,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 63934,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "4s",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "4p",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 50,
+                  "biao_dora_count": 3,
+                  "yiman_zimo": false,
+                  "count_zimo": 1,
+                  "fu_zimo": 50
+                },
+                {
+                  "tile": "7p",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 2,
+                  "yiman_zimo": false,
+                  "count_zimo": 1,
+                  "fu_zimo": 50
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 64433,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "6p",
+              "left_tile_count": 27,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 64935,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "6p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 65436,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "1p",
+              "left_tile_count": 26,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 65939,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "1p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 66439,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "8p",
+              "left_tile_count": 25,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 68283,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "8p",
+              "moqie": true,
+              "timeuse": 1,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 68284,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "8p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "4p",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 50,
+                  "biao_dora_count": 3,
+                  "yiman_zimo": false,
+                  "count_zimo": 1,
+                  "fu_zimo": 50
+                },
+                {
+                  "tile": "7p",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 2,
+                  "yiman_zimo": false,
+                  "count_zimo": 1,
+                  "fu_zimo": 50
+                }
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 2,
+                  "operation_list": [
+                    {
+                      "type": 3,
+                      "combination": [
+                        "8p|8p"
+                      ]
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 68786,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "3p",
+              "left_tile_count": 24,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 69288,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "6s",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 69789,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "5z",
+              "left_tile_count": 23,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 70292,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "5z",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 70793,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "6s",
+              "left_tile_count": 22,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 72566,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 8
+          }
+        },
+        {
+          "passed": 73953,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "6s",
+              "moqie": true,
+              "timeuse": 3,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 73956,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "6s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "4p",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 50,
+                  "biao_dora_count": 3,
+                  "yiman_zimo": false,
+                  "count_zimo": 1,
+                  "fu_zimo": 50
+                },
+                {
+                  "tile": "7p",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 2,
+                  "yiman_zimo": false,
+                  "count_zimo": 1,
+                  "fu_zimo": 50
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 74456,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "2s",
+              "left_tile_count": 21,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 74958,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "2s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 0,
+                  "operation_list": [
+                    {
+                      "type": 3,
+                      "combination": [
+                        "2s|2s"
+                      ]
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 75461,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "4s",
+              "left_tile_count": 20,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 75962,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "4s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 76463,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "7p",
+              "left_tile_count": 19,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  },
+                  {
+                    "type": 8
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 101531,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 8,
+              "index": 0,
+              "timeuse": 1000000
+            }
+          }
+        },
+        {
+          "passed": 101532,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordHule",
+            "data": {
+              "hules": [
+                {
+                  "hand": [
+                    "3p",
+                    "4p",
+                    "0p",
+                    "5p",
+                    "6p",
+                    "3s",
+                    "3s"
+                  ],
+                  "ming": [
+                    "minggang(3z,3z,3z,3z)",
+                    "kezi(2z,2z,2z)"
+                  ],
+                  "hu_tile": "7p",
+                  "seat": 1,
+                  "zimo": true,
+                  "qinjia": false,
+                  "liqi": false,
+                  "doras": [
+                    "3p",
+                    "1m"
+                  ],
+                  "yiman": false,
+                  "count": 3,
+                  "fans": [
+                    {
+                      "val": 1,
+                      "id": 10
+                    },
+                    {
+                      "val": 1,
+                      "id": 31
+                    },
+                    {
+                      "val": 1,
+                      "id": 32
+                    }
+                  ],
+                  "fu": 50,
+                  "point_rong": 6400,
+                  "point_zimo_qin": 3200,
+                  "point_zimo_xian": 1600,
+                  "title_id": 0,
+                  "point_sum": 4800,
+                  "dadian": 4800,
+                  "baopai": 0
+                }
+              ],
+              "old_scores": [
+                35000,
+                35000,
+                35000
+              ],
+              "delta_scores": [
+                -3200,
+                4800,
+                -1600
+              ],
+              "wait_timeout": 0,
+              "scores": [
+                31800,
+                39800,
+                33400
+              ],
+              "gameend": {},
+              "baopai": 0
+            }
+          }
+        },
+        {
+          "passed": 116002,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 5
+          }
+        },
+        {
+          "passed": 116005,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordNewRound",
+            "data": {
+              "chang": 0,
+              "ju": 1,
+              "ben": 0,
+              "scores": [
+                31800,
+                39800,
+                33400
+              ],
+              "liqibang": 0,
+              "tiles0": [
+                "5z",
+                "4z",
+                "8p",
+                "1m",
+                "7z",
+                "3s",
+                "3z",
+                "8s",
+                "1m",
+                "4s",
+                "9p",
+                "3p",
+                "2s"
+              ],
+              "tiles1": [
+                "6s",
+                "5s",
+                "9p",
+                "8p",
+                "9p",
+                "7z",
+                "3p",
+                "5z",
+                "1m",
+                "6z",
+                "9m",
+                "7p",
+                "1p",
+                "0p"
+              ],
+              "tiles2": [
+                "9m",
+                "4s",
+                "6s",
+                "5z",
+                "6z",
+                "3z",
+                "2p",
+                "6p",
+                "9s",
+                "4s",
+                "7z",
+                "6s",
+                "8s"
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 8000
+              },
+              "paishan": "6s5s9p8p9m4s6s5z5z4z8p1m9p7z3p5z6z3z2p6p7z3s3z8s1m6z9m7p9s4s7z6s1m4s9p3p1p8s2s0p4p9s7p2p1p9s7s7s5s1s5z5p9s7p5p7z4p6s1z8p3s8s4z3z2s6p2z1p3p1s9m4z7s4p2s3s6p1p4s4z7s6z1m2z3s1z5s9p1s1s2z6p1z2p2z2p3z6z9m8s8p1z0s4p7p2s3p5p",
+              "left_tile_count": 54,
+              "doras": [
+                "8s"
+              ],
+              "opens": [
+                {
+                  "seat": 0
+                },
+                {
+                  "seat": 1
+                },
+                {
+                  "seat": 2
+                }
+              ],
+              "sha256": "c1683813395bb5c0ce9bae56d56d72311aae700d275fd0139ef62c8d9fa79a1a"
+            }
+          }
+        },
+        {
+          "passed": 118187,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 5
+          }
+        },
+        {
+          "passed": 119903,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "9m",
+              "moqie": false,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 119906,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "9m",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 120406,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "4p",
+              "left_tile_count": 53,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 120908,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "4p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 121408,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "9s",
+              "left_tile_count": 52,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  },
+                  {
+                    "type": 11
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 121910,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordBaBei",
+            "data": {
+              "seat": 0,
+              "moqie": false
+            }
+          }
+        },
+        {
+          "passed": 122410,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "5p",
+              "left_tile_count": 51,
+              "doras": [
+                "8s"
+              ],
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 122912,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "7z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 123303,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 3
+          }
+        },
+        {
+          "passed": 123412,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "7p",
+              "left_tile_count": 50,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 124920,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "1m",
+              "moqie": false,
+              "timeuse": 1,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 124922,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "1m",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 0,
+                  "operation_list": [
+                    {
+                      "type": 3,
+                      "combination": [
+                        "1m|1m"
+                      ]
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 125427,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "2p",
+              "left_tile_count": 49,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 125929,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "6z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 126429,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "1p",
+              "left_tile_count": 48,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 126931,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "1p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 127432,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "9s",
+              "left_tile_count": 47,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 129737,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "6z",
+              "moqie": false,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 129738,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "6z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 130238,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "7s",
+              "left_tile_count": 46,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 130741,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "3z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 131242,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "7s",
+              "left_tile_count": 45,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 131743,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "7s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 132243,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "5s",
+              "left_tile_count": 44,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 133753,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 7
+          }
+        },
+        {
+          "passed": 134870,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "7z",
+              "moqie": false,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 134871,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "7z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 135372,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "1s",
+              "left_tile_count": 43,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 135875,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "9m",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 136376,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "5z",
+              "left_tile_count": 42,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 136878,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "5z",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 137379,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "5p",
+              "left_tile_count": 41,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 139040,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 2
+          }
+        },
+        {
+          "passed": 140204,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "5z",
+              "moqie": false,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 140205,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "5z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 140706,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "9s",
+              "left_tile_count": 40,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 141207,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "9s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 141706,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "7p",
+              "left_tile_count": 39,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 142210,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "5z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 142709,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "5p",
+              "left_tile_count": 38,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 144237,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "9s",
+              "moqie": false,
+              "timeuse": 1,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 144239,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "9s",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 144740,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "7z",
+              "left_tile_count": 37,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 145244,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "1s",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 145745,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "4p",
+              "left_tile_count": 36,
+              "zhenting": [
+                false,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 1
+                  },
+                  {
+                    "type": 7,
+                    "combination": [
+                      "3z"
+                    ]
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 145771,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 6
+          }
+        },
+        {
+          "passed": 146248,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "3z",
+              "is_liqi": true,
+              "moqie": false,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "7s",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 2,
+                  "yiman_zimo": false,
+                  "count_zimo": 2,
+                  "fu_zimo": 30
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 146747,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "6s",
+              "left_tile_count": 35,
+              "liqi": {
+                "seat": 0,
+                "score": 30800,
+                "liqibang": 1
+              },
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 149904,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "1p",
+              "moqie": false,
+              "timeuse": 3,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 149906,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "1p",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 150407,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "1z",
+              "left_tile_count": 34,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 150910,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "1z",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 151411,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "8p",
+              "left_tile_count": 33,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 152211,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "8p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "7s",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 2,
+                  "yiman_zimo": false,
+                  "count_zimo": 2,
+                  "fu_zimo": 30
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 152711,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "3s",
+              "left_tile_count": 32,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 152987,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 3
+          }
+        },
+        {
+          "passed": 154788,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "3s",
+              "moqie": true,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 154790,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "3s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 155291,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "8s",
+              "left_tile_count": 31,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 155794,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "5z",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 156294,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "4z",
+              "left_tile_count": 30,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 11
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 156795,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordBaBei",
+            "data": {
+              "seat": 0,
+              "moqie": true
+            }
+          }
+        },
+        {
+          "passed": 157296,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "3p",
+              "left_tile_count": 29,
+              "doras": [
+                "8s"
+              ],
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 158096,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "3p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "7s",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 3,
+                  "yiman_zimo": false,
+                  "count_zimo": 2,
+                  "fu_zimo": 30
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 158597,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "3z",
+              "left_tile_count": 28,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 159789,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "3z",
+              "moqie": true,
+              "timeuse": 1,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 159791,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "3z",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 160292,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "2s",
+              "left_tile_count": 27,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 160796,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "6p",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 161297,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "6p",
+              "left_tile_count": 26,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 162098,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "6p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "7s",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 3,
+                  "yiman_zimo": false,
+                  "count_zimo": 2,
+                  "fu_zimo": 30
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 162406,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 8
+          }
+        },
+        {
+          "passed": 162598,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "2z",
+              "left_tile_count": 25,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 164638,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "2z",
+              "moqie": true,
+              "timeuse": 1,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 164640,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "2z",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 165140,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "1p",
+              "left_tile_count": 24,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 165641,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "1p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 166142,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "3p",
+              "left_tile_count": 23,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 166942,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "3p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "7s",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 3,
+                  "yiman_zimo": false,
+                  "count_zimo": 2,
+                  "fu_zimo": 30
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 167443,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "1s",
+              "left_tile_count": 22,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 167589,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 4
+          }
+        },
+        {
+          "passed": 169406,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "1s",
+              "moqie": true,
+              "timeuse": 1,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 169407,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "1s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 169907,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "9m",
+              "left_tile_count": 21,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 170413,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "9m",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 170913,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "4z",
+              "left_tile_count": 20,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "operation_list": [
+                  {
+                    "type": 11
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 171415,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordBaBei",
+            "data": {
+              "seat": 0,
+              "moqie": true
+            }
+          }
+        },
+        {
+          "passed": 171919,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "2s",
+              "left_tile_count": 19,
+              "doras": [
+                "8s"
+              ],
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 172720,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "2s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "7s",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 4,
+                  "yiman_zimo": false,
+                  "count_zimo": 2,
+                  "fu_zimo": 30
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 173221,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "7s",
+              "left_tile_count": 18,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 175628,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "3p",
+              "moqie": false,
+              "timeuse": 2,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 175630,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "3p",
+              "is_liqi": false,
+              "moqie": false,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 176133,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "4p",
+              "left_tile_count": 17,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 176639,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "4p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 177139,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "2s",
+              "left_tile_count": 16,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 177940,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "2s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "7s",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 4,
+                  "yiman_zimo": false,
+                  "count_zimo": 2,
+                  "fu_zimo": 30
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 178440,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "3s",
+              "left_tile_count": 15,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 179941,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 1,
+              "tile": "3s",
+              "moqie": true,
+              "timeuse": 1,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 179943,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "3s",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 181957,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "6p",
+              "left_tile_count": 14,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 182462,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "6p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 182963,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 0,
+              "tile": "1p",
+              "left_tile_count": 13,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 0,
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 183090,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 5
+          }
+        },
+        {
+          "passed": 183763,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 0,
+              "tile": "1p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "7s",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 4,
+                  "yiman_zimo": false,
+                  "count_zimo": 2,
+                  "fu_zimo": 30
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 184264,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 1,
+              "tile": "4s",
+              "left_tile_count": 12,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 1,
+                "operation_list": [
+                  {
+                    "type": 1
+                  },
+                  {
+                    "type": 7,
+                    "combination": [
+                      "9p",
+                      "7p",
+                      "9p",
+                      "9p",
+                      "8p",
+                      "8p",
+                      "7p",
+                      "7p",
+                      "9p",
+                      "0p"
+                    ]
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 189923,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 2,
+            "operation": {
+              "type": 7,
+              "tile": "8p",
+              "moqie": false,
+              "timeuse": 5,
+              "tile_state": 0
+            }
+          }
+        },
+        {
+          "passed": 189924,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 1,
+              "tile": "8p",
+              "is_liqi": true,
+              "moqie": false,
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "tingpais": [
+                {
+                  "tile": "9p",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 1,
+                  "yiman_zimo": false,
+                  "count_zimo": 2,
+                  "fu_zimo": 40
+                },
+                {
+                  "tile": "7p",
+                  "haveyi": true,
+                  "yiman": false,
+                  "count": 1,
+                  "fu": 40,
+                  "biao_dora_count": 1,
+                  "yiman_zimo": false,
+                  "count_zimo": 2,
+                  "fu_zimo": 30
+                }
+              ],
+              "is_wliqi": false
+            }
+          }
+        },
+        {
+          "passed": 190424,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "4z",
+              "left_tile_count": 11,
+              "liqi": {
+                "seat": 1,
+                "score": 38800,
+                "liqibang": 2
+              },
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  },
+                  {
+                    "type": 11
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 190926,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordBaBei",
+            "data": {
+              "seat": 2,
+              "moqie": true
+            }
+          }
+        },
+        {
+          "passed": 191426,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDealTile",
+            "data": {
+              "seat": 2,
+              "tile": "7p",
+              "left_tile_count": 10,
+              "doras": [
+                "8s"
+              ],
+              "zhenting": [
+                true,
+                false,
+                false
+              ],
+              "operation": {
+                "seat": 2,
+                "operation_list": [
+                  {
+                    "type": 1
+                  }
+                ],
+                "time_add": 20000,
+                "time_fixed": 5000
+              }
+            }
+          }
+        },
+        {
+          "passed": 191927,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordDiscardTile",
+            "data": {
+              "seat": 2,
+              "tile": "7p",
+              "is_liqi": false,
+              "moqie": true,
+              "zhenting": [
+                true,
+                true,
+                false
+              ],
+              "is_wliqi": false,
+              "operations": [
+                {
+                  "seat": 1,
+                  "operation_list": [
+                    {
+                      "type": 9
+                    }
+                  ],
+                  "time_add": 20000,
+                  "time_fixed": 5000
+                }
+              ]
+            }
+          }
+        },
+        {
+          "passed": 192292,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 4
+          }
+        },
+        {
+          "passed": 197591,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 5
+          }
+        },
+        {
+          "passed": 203491,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 3
+          }
+        },
+        {
+          "passed": 213992,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 1,
+            "emo": 990
+          }
+        },
+        {
+          "passed": 217492,
+          "type": 2,
+          "user_input": {
+            "seat": 1,
+            "type": 3,
+            "cpg": {
+              "type": 9,
+              "index": 0,
+              "timeuse": 1000000
+            }
+          }
+        },
+        {
+          "passed": 217492,
+          "type": 1,
+          "result": {
+            "name": ".lq.RecordHule",
+            "data": {
+              "hules": [
+                {
+                  "hand": [
+                    "0p",
+                    "5p",
+                    "5p",
+                    "7p",
+                    "7p",
+                    "9p",
+                    "9p",
+                    "4s",
+                    "5s",
+                    "5s",
+                    "6s",
+                    "6s",
+                    "7s"
+                  ],
+                  "hu_tile": "7p",
+                  "seat": 1,
+                  "zimo": false,
+                  "qinjia": true,
+                  "liqi": true,
+                  "doras": [
+                    "8s"
+                  ],
+                  "li_doras": [
+                    "9m"
+                  ],
+                  "yiman": false,
+                  "count": 2,
+                  "fans": [
+                    {
+                      "val": 1,
+                      "id": 2
+                    },
+                    {
+                      "val": 1,
+                      "id": 32
+                    },
+                    {
+                      "val": 0,
+                      "id": 33
+                    }
+                  ],
+                  "fu": 40,
+                  "point_rong": 3900,
+                  "point_zimo_xian": 1300,
+                  "title_id": 0,
+                  "point_sum": 8700,
+                  "dadian": 3900,
+                  "baopai": 0
+                }
+              ],
+              "old_scores": [
+                30800,
+                38800,
+                33400
+              ],
+              "delta_scores": [
+                0,
+                5900,
+                -3900
+              ],
+              "wait_timeout": 0,
+              "scores": [
+                30800,
+                44700,
+                29500
+              ],
+              "gameend": {},
+              "baopai": 0
+            }
+          }
+        },
+        {
+          "passed": 217493,
+          "type": 4,
+          "game_event": 2
+        }
+      ]
+    }
+  },
+  "data_url": ""
+}
