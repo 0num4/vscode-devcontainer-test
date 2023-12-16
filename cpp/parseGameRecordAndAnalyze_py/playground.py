@@ -2,6 +2,10 @@ import glob
 import json
 file_list = glob.glob("paifu/*")
 
+def tokusyusousa(type):
+    if type != 1 and type != 2:
+        print(f"特殊操作にゃ！{type}")
+
 def parseFile(file_path):
     print(file_path)
     json_data = json.load(open(file_path, "r"))
@@ -25,12 +29,17 @@ def parseFile(file_path):
         # print(f"前のイベントから{elapsed_time/1000}秒経ったよ")
         # print(f"{i}番目のアクション")
         if action["type"] == 1:
-            # print("ツモ")
+            # print(action["result"]["name"])
+            if action["result"]["name"] == ".lq.RecordHule":
+                # print(f"{elapsed_time/1000} ロンにゃ！ {action['result']['data']}")
+                for fule in action['result']['data']['hules']:
+                    print(f"{elapsed_time/1000} 他家のロン/ツモにゃ！ {fule['seat']}({'親' if fule['qinjia'] else '子'})が{fule['hu_tile']}で{'ツモ' if fule['zimo'] else 'ロン'}にゃ！{fule['count']}翻にゃ！")
             pass
         elif action["type"] == 2:
             if action['user_input']['type'] == 1:
                 print(f"{elapsed_time/1000} スタンプを打ったにゃ！{action['user_input']['emo']}")
             elif action['user_input']['type'] == 2:
+                tokusyusousa(action['user_input']['type'])
                 # print(f"{elapsed_time/1000} {action['user_input']['operation']}")
                 time_use = action['user_input']['operation'].get('timeuse')
                 operation_tile = action['user_input']['operation'].get('tile')
@@ -54,6 +63,20 @@ def parseFile(file_path):
                     print(f"{elapsed_time/1000} ロン/ツモにゃあ～！！！ 使った時間は{time_use if time_use is not None else '自動和了'}秒にゃ！")
                 elif action['user_input']['operation']["type"] == 2:
                     print(f"{elapsed_time/1000} 操作キャンセルにゃ！ 使った時間は{time_use}秒にゃ！")
+                else:
+                    print(f"{elapsed_time/1000} 不明な操作にゃ！ {action['user_input']['operation']} 使った時間は{time_use}秒にゃ！")
+            elif action['user_input']['type'] == 3:
+                print(f"{elapsed_time/1000} CPGにゃ！ {action['user_input']['cpg']}")
+            elif action['user_input']['type'] == 4:
+                pass # 存在しない
+            elif action['user_input']['type'] == 5:
+                print(f"{elapsed_time/1000} 1局が終了し、次局の準備ができたときにゃ!")
+            elif action['user_input']['type'] == 6:
+                print(f"{elapsed_time/1000} 離席から戻り、操作再開したときにゃ！")
+            elif action['user_input']['type'] == 7:
+                print(f"{elapsed_time/1000} 対局を開始するときにゃ！")
+            elif action['user_input']['type'] == 8 or 9:
+                print(f"{elapsed_time/1000} 他家が回線落ち/回線復帰したときにゃ！")
         elif action["type"] == 3:
             if action["user_event"]["type"] == 1:
                 if i < 10:
