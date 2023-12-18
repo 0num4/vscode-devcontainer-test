@@ -3,5 +3,5 @@
 # Classes
 class Object
   private
-  def add: (Integer a, Integer b) -> Integer
+  def add: (Integer a, String b) -> untyped
 end
