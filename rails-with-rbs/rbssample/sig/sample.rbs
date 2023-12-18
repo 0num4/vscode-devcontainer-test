@@ -1,0 +1,7 @@
+# TypeProf 0.21.8
+
+# Classes
+class Object
+  private
+  def add: (Integer a, String b) -> untyped
+end
