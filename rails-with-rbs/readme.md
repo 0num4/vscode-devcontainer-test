@@ -141,6 +141,32 @@ gem 'sorbet', require: false
 https://note.com/pharmax/n/naa573d13410d
 sorbetはrubyの中に型アノテーションとして書けるらしい。
 
+srb initしようとしたらdeplicatedになっていた・・・マジ？
+(base) root ➜ /workspaces/vscode-devcontainer-test/rails-with-rbs/rbssample (feat/rails-with-rbs2) $ bundle exec srb init
+The srb rbi command is in maintenance mode, please use Tapioca instead.
+
+srbからはいったん離れてvscode及びrubymineで型チェック出来る方法について調べてみます。
+
+https://qiita.com/kagesumi3m/items/3cb56b50d587406f70b1
+https://zenn.dev/yukyan/articles/4c62efd21ff4b2
+https://github.com/ruby/typeprof/blob/master/doc/ide.md
+
+とりあえずtypeprofの公式wikiにしたがってrbswikiをcloneしてbundle installしてrbs installをしてみる。rbsにはrbs initのほかにもrbs installもある。
+
+この状態でtypeprof extensionを入れてチュートリアル通り動くかと思ったけど動かず。typeprofは結構新しいバージョンを要求されるっぽい。
+```
+(base) root ➜ /tmp/rbswiki (main) $ ruby -v
+ruby 3.2.2 (2023-03-30 revision e51014f9c0) [x86_64-linux]
+(base) root ➜ /tmp/rbswiki (main) $ bundle exec typeprof --version
+typeprof 0.20.2
+(base) root ➜ /tmp/rbswiki (main) $ 
+```
+上手くいかず。logを見るとportがエラーを履いているのでLSPがdevcontainer上だと上手く通信出来てないかも。
+
+localのwindows上で再度実行してみると上手くいった。
+
+
+
 ___
 
 This README would normally document whatever steps are necessary to get the

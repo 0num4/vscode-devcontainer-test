@@ -24,6 +24,7 @@ target :test do
   signature "sig", "sig-private"
 
   check "test"
+  check "sample.rb"
 
   # library "pathname"              # Standard libraries
 end
