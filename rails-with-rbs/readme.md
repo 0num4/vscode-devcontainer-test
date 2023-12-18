@@ -80,12 +80,25 @@ class Information
   def initialize: (animal: untyped, height: untyped) -> void
 end
 ```
-コンソールにコードが出力される
+コンソールにコードが出力される。
+クラスだけじゃ分かりにくいかなと思ってsample.rbの関数にも型情報を消してtypeprofをかけてみたところ、定義だけかと思ったらそもそもクラスが作られた。
 ```
+# TypeProf 0.21.8
+
+# Classes
+class Object
+  private
+  def add: (Integer a, Integer b) -> Integer
+end
 ```
 
+-oでrbsファイルとして出力出来る。
+typeprof sample.rb -o sample.rbs
+
+出力されたファイルはsteepで使える。生のrubyには型構造が無いので何も使えなさそう()
 ```
-rbs prototype init
+gem 'steep', require: false
+
 ```
 
 

@@ -44,6 +44,7 @@ gem "bootsnap", require: false
 ## ここから自分で追加
 gem 'rbs', require: false
 gem "typeprof", require: false
+gem 'steep', require: false
 
 ## ここまで自分で追加
 
